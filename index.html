@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Silvina Much</title>
+  </head>
+  <body>
+    <!--- Menú de navegación --->
+    <header>
+      <nav
+        class="navbar navbar-dark navbar-expand-md bg-dark fixed-top"
+        id="inicio"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#inicio"
+            ><strong>Silvina</strong> Much</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos" aria-expanded="false">
+                  Proyectos
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--- Quién soy -->
+      <section id="inicio" class="container py-4 mt-5">
+        <div class="row align-items-center text-center">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./img/girl.jpg" style="width: 450px" />
+          </div>
+          <div class="col-12 col-md-6 text-md-start">
+            <h1 class="display-4 fw-bold text-secondary letter-spacing">
+              ¿Quién soy?
+            </h1>
+            <p>
+              Soy estudiante de la Tecnicatura en Informática de Gestión en la
+              Universidad Nacional de La Pampa (<a
+                href="https://exactas.unlpam.edu.ar/"
+                >UNLPam</a
+              >) y me gustaría trabajar dedicándome a programar y diseñar
+              páginas web.
+            </p>
+            <a href="#proyectos" class="btn btn-secondary border border-black"
+              >Ver trabajos realizados</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section id="sobre-mi" class="bg-secondary py-4">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                src="./img/caricatusil.png"
+                style="width: 250px"
+                class="img-fluid rounded-circle mb-4 mt-3"
+              />
+            </div>
+            <div class="col">
+              <p class="h2 fw-normal text-white">
+                ¡Hola! Mi nombre es Silvina Much y disfruto aprender acerca de
+                todo lo que tenga que ver con la computación. Mi interés en esta
+                area comenzó en 2023, cuando comencé a estudiar la Tecnicatura
+                en Programación en Teclab y mi objetivo es continuar aprendiendo
+                más lenguajes de programación.
+              </p>
+              <p class="fst-italic h4 mb-0 text-white">- Silvina Much</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carta 1 -->
+      <section id="proyectos" class="container py-4">
+        <h1 class="display-4 fw-bold mb-4 text-center text-secondary">
+          Mis proyectos
+        </h1>
+        <div class="d-flex justify-content-center">
+          <div class="text-md-center">
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0 me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/img/lemon-pie.jpeg"
+                  class="card-img-top"
+                  alt="Lemon Pie"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lemon Pie</h5>
+                  <p class="card-text">
+                    Página web sencilla que lista los ingredientes y el paso a
+                    paso a realizar para hacer un Lemon Pie.
+                  </p>
+                  <a
+                    href="https://silviss-m.github.io/Clase-3/"
+                    class="btn btn-secondary border border-black"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Carta 2 -->
+          <div class="row text-md-center">
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0 me-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./img/petshop.jpeg"
+                  class="card-img-top"
+                  alt="Pet Shop"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pet Shop</h5>
+                  <p class="card-text">
+                    Modelo de página web para una tienda de mascotas.
+                  </p>
+                  <a
+                    href="https://silviss-m.github.io/C6S-Pet-Shop/"
+                    class="btn btn-secondary border border-black"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Carta 3 -->
+          <div class="row text-md-center">
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0 me-4">
+              <div class="card" style="width: 18rem">
+                <img src="./img/pizza.jpeg" class="card-img-top" alt="Pizza" />
+                <div class="card-body">
+                  <h5 class="card-title">PizzaFront</h5>
+                  <p class="card-text">
+                    Diseño de sitio web para una pizzería.
+                  </p>
+                  <a
+                    href="https://silviss-m.github.io/C11S-Pizza-Front/"
+                    class="btn btn-secondary border border-black"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Carta 4 -->
+          <div class="row text-md-center">
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0 me-4">
+              <div class="card" style="width: 18rem">
+                <img src="./img/super.png" class="card-img-top" alt="Héroes" />
+                <div class="card-body">
+                  <h5 class="card-title">Héroes</h5>
+                  <p class="card-text">
+                    Diseño de página web con cartas de superhéroes con opción
+                    para crear otra/s.
+                  </p>
+                  <a
+                    href="https://silviss-m.github.io/C14S-Disenio-Adaptativo/"
+                    class="btn btn-secondary border border-black"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row flex-column text-center">
+          <div class="container bg-secondary">
+            <div class="col-md-12 py-5">
+              <a href="https://www.facebook.com/share/1BnYRhxbaj/"
+                ><i class="fa-brands fa-facebook fa-lg text-white me-5"></i
+              ></a>
+              <a href="https://www.instagram.com/silvinasm"
+                ><i class="fa-brands fa-instagram fa-lg text-white me-5"></i
+              ></a>
+              <a href="https://github.com/silviss-m"
+                ><i class="fa-brands fa-github fa-lg text-white me-5"></i
+              ></a>
+              <a href="https://www.youtube.com/@silviss_m"
+                ><i class="fa-brands fa-youtube fa-lg text-white"></i
+              ></a>
+            </div>
+          </div>
+          <div class="container bg-dark">
+            <div class="container text-center py-3 text-white">
+              <div class="col mt-3">
+                <p>
+                  <span class="text-white-50">Copyright ©</span>
+                  2025. Todos los derechos reservados.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
